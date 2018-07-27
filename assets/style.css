@@ -6,12 +6,19 @@
     background-color:#999999;
 
 }
+.about{
+    display:flex;
+    justify-content:flex-start;
+}
 .bg-intro{
-    background-image:url(assets/sterling-side.jpeg);
+    height:85%;
+    background-image:url("/assets/sterling-side.jpeg");
     background-size:cover;
 }
 .bg-about{
+    border-top: 10px solid #999999;
     background-color:#991435; 
+    
 }
 ul{
     display:flex;
@@ -20,6 +27,22 @@ ul{
     align-self:center;
     justify-content:space-around;
 }
+.portfolio{
+    border-top: 10px solid #999999;
+    background-image:url("/assets/sterling-side-sm.jpeg");
+    background-size:cover;
+}
+.contact {
+    background-color:#991435;
+}
 .white-card{
-
+    background: white;
+    padding: 30px;
+    box-shadow: 1px 1px 2px #999999;
+    border-radius: 4px;
+    margin: 20px 50px;
+}
+.footer {
+    background-color:#999999;
+    height:5%;
 }
