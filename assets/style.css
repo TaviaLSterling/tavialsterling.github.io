@@ -1,19 +1,32 @@
 .main {
     height:100vh;
+
 }
 .header { 
     display:flex;
     background-color:#999999;
+    font-family: 'Permanent Marker', cursive;
 
 }
 .about{
     display:flex;
     justify-content:flex-start;
+    font-family: 'Permanent Marker', cursive;
 }
 .bg-intro{
     height:85%;
     background-image:url("/assets/sterling-side.jpeg");
     background-size:cover;
+    display:flex;
+    font-family: 'Permanent Marker', cursive;
+}
+h1{
+    display:flex;
+    align-self:center;
+    font-size:1000%;
+}
+h2 {
+    margin:none;
 }
 .bg-about{
     border-top: 10px solid #999999;
@@ -24,17 +37,18 @@ ul{
     display:flex;
     list-style-type:none;
     justify-content:flex-end;
-    align-self:center;
     justify-content:space-around;
 }
 .portfolio{
     border-top: 10px solid #999999;
     background-image:url("/assets/sterling-side-sm.jpeg");
     background-size:cover;
+    font-family: 'Permanent Marker', cursive;
 }
 .contact {
     background-color:#991435;
     border-top: 10px solid #999999;
+    font-family: 'Permanent Marker', cursive;
 }
 .white-card{
     background: white;
@@ -46,4 +60,8 @@ ul{
 .footer {
     background-color:#999999;
     height:7%;
+}
+.lg-img {
+    display:flex;
+    height:65%;
 }
