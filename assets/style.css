@@ -47,10 +47,12 @@ ul{
     font-family: 'Permanent Marker', cursive;
     height:80%;
 }
-.contact {
+.contact { 
+    display:flex;
     background-color:#991435;
     border-top: 15px solid #999999;
     font-family: 'Permanent Marker', cursive;
+    align-items:center;
 }
 .white-card{
     background: white;
@@ -65,7 +67,4 @@ ul{
 .lg-img {
     display:flex;
     height:65%;
-}
-*{
-    outline: 1px solid red;
 }
