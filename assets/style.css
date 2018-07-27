@@ -1,4 +1,9 @@
-.header {
+.main {
+    height:100vh;
+}
+.header { 
+    display:flex;
+    background-color:#999999;
 
 }
 .bg-intro{
@@ -7,6 +12,13 @@
 }
 .bg-about{
     background-color:#991435; 
+}
+ul{
+    display:flex;
+    list-style-type:none;
+    justify-content:flex-end;
+    align-self:center;
+    justify-content:space-around;
 }
 .white-card{
 
