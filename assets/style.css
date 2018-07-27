@@ -34,6 +34,7 @@ ul{
 }
 .contact {
     background-color:#991435;
+    border-top: 10px solid #999999;
 }
 .white-card{
     background: white;
@@ -44,5 +45,5 @@ ul{
 }
 .footer {
     background-color:#999999;
-    height:5%;
+    height:7%;
 }
