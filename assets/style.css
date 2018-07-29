@@ -79,3 +79,12 @@ ul{
     display:flex;
     height:65%;
 }
+.button {
+    background-color: #991435; 
+    border: none;
+    color: white;
+    padding: auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+}
