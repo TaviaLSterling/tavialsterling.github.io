@@ -98,6 +98,9 @@ ul{
 i:hover{
 color:#991435;
 }
+.sm-img {
+    height:6em;
+}
 /**{
     outline: 1px solid red;
 }*/
