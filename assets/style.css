@@ -86,9 +86,21 @@ ul{
     padding: auto;
     text-align: center;
     text-decoration: none;
-    font-size: 28px;
+    font-size: 30px;
 }
 .md-image{
     height:200px;
     width:300px;
+}
+.md-image:hover{
+    opacity: 0.5;
+}
+i:hover{
+color:#991435;
+}
+/**{
+    outline: 1px solid red;
+}*/
+.black {
+    color:black;
 }
