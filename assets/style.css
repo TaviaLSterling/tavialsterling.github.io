@@ -11,6 +11,11 @@ a:visited{
 a:hover{
     color:white;
 }
+.headshot {
+    height:175px;
+    width:120px;
+    border-radius: 50%;
+}
 .header { 
     display:flex;
     background-color:#999999;
